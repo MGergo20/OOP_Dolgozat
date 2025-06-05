@@ -1,0 +1,104 @@
+.recept {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.elem {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 260px;
+    padding: 1rem;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+
+.elem:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+.elem img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.elem h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0.5rem 0;
+    color: #333;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.adatok {
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 1.5rem 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.adatok h1 {
+    margin-top: 0;
+    color: #2a7ae2;
+    font-size: 1.3rem;
+}
+
+.adatok ul, .adatok ol {
+    margin: 1rem 0 1rem 1.5rem;
+    padding: 0;
+}
+.adatok img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+textarea {
+    width: 95%;
+    min-height: 40px;
+    padding: 0.7rem;
+    border: 1.5px solid #bdbdbd;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+    background: #fafafa;
+    transition: border-color 0.2s;
+}
+
+.leiras {
+    background: #f0f4fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 1px 4px rgba(42,122,226,0.07);
+    text-align: left;
+}
+
+.leiras h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.05rem;
+    color: #2a7ae2;
+}
+
+.leiras p {
+    margin: 0;
+    color: #333;
+    font-size: 1rem;
+}
+
+
